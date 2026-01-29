@@ -1,0 +1,257 @@
+/* ---------------------------------------------------------------خلفية الصفحة-------------------------------------------------------------- */
+body
+{
+
+    background: url(../imgs/bodybg2.jpg);
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma,  Verdana, sans-serif;
+    line-height: 1;
+    text-align: right;
+
+}
+/* ---------------------------------------------------------------الروابط------------------------------------------------------------- */
+a
+{
+
+    text-decoration: none;
+
+}
+
+a:link, a:visited
+{
+
+    color: rgb(208, 18, 18);
+
+}
+
+/* ---------------------------------------------------------------header1,body1------------------------------------------------------------ */
+.body1
+{
+
+    width: 70%; 
+    margin: 10px auto;
+    clear: both;
+
+}
+
+.header1 nav
+{
+
+    color: white;
+   
+    
+    background-color: rgb(17, 9, 163) ;
+    border-radius: 5px;   /* زوايا المستطيل دائرية */
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  
+
+}
+
+.header1 nav ul
+{
+
+    text-align: center;
+    list-style: none;
+    margin: 0px auto;
+    /* ترتيب العناصر  */
+
+}
+
+.header1 nav ul li
+{
+
+    display: inline;
+  
+
+}
+
+.header1 a:link, .header1 a:visited
+{
+
+    color: #ffffff;
+    /* لون الخط ابيض */
+    padding: 10px 40px;
+    /*  بكسل  10 فوق و تحت و 40 بكسل يمين و يسار  */
+    display: inline-block;
+    /* بدي اياه بخط واحد و بلوك */
+    line-height: 1.5;
+   
+}
+
+.header1 a:hover, .header1 a:active
+{
+
+   background-color:rgb(27, 18, 191);
+
+}
+/* ---------------------------------------------------------------section1------------------------------------------------------------- */
+.section1
+{
+
+    text-align: center;
+   margin: 100px;
+    
+
+}
+
+.footer-p
+{
+
+    color: #999;
+
+}
+
+.footer-a a
+{
+
+    color: #ffffff;
+    background-color: rgb(17, 9, 163) ;
+    border-radius: 5px;   
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   padding: 5px 40px;
+   margin: 25px, 50px;
+    line-height: 3;
+  
+}
+
+.footer-a a:hover, .footer-a a:active
+{
+     
+    color: #ffffff;
+   background-color:rgb(27, 18, 191);
+
+}
+/* ---------------------------------------------------------section2----------------------------------------------------- */
+.header3
+{
+
+    text-align: center;
+
+}
+
+.show-project 
+{
+
+    text-align: right;
+    margin-bottom: -100px;
+
+}
+
+.suport-project
+{
+
+    text-align: center;
+    margin-bottom: -100px;
+
+
+}
+
+.suport-grow
+{
+
+    text-align: left;
+
+}
+/* ---------------------------------------------------------section3----------------------------------------------------- */
+.header4
+{
+    text-align: center;
+}
+
+.sweet-project
+{
+    text-align: right;
+    margin-bottom: -180px;
+    /* gap: ;
+    align-items: ; */
+}
+
+.sweet-project a
+{
+    color:  rgb(208, 18, 18);
+}
+
+.handmade-project
+{
+    text-align: center;
+    margin-bottom: -180px;
+}
+
+.product-project
+{
+    text-align: left;
+}
+
+.section3 div
+{
+    line-height: 0.3;
+}
+/* ---------------------------------------------------------section4----------------------------------------------------- */
+.video1
+{
+
+   text-align: center;
+
+}
+
+.video2
+{
+
+    text-align: center;
+
+}
+/* ---------------------------------------------------------section5----------------------------------------------------- */
+.contact-with-us
+{
+
+    text-align: center;
+
+}
+
+#send
+{
+
+    text-align: center;
+
+}
+
+body
+{
+
+    background: url(../img/bodybg2.jpg);
+    /* اضافة صورة للخلفية */
+    font-size: 20px;
+    /* حجم الخط */
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    /* نوع الخط بحيث اذا ماتوفر اول نوع خط يستخدم الثاني و هكذا */
+    line-height: 1;
+    /* المسافة بين الكلام */
+    text-align: right;
+    /* يبدأ الكتابة من اليمين */
+
+    width: 70%;
+    /* عرض الصفحة */
+    margin: 10px auto;
+    /* الهوامش الخارجية */
+    clear: both;
+    /* العائم footer يعكس خاصية ال */
+
+}
+
+h1
+{
+    text-align: center;
+    /* اجعل الخط او الكلمة في وسط الصفحة */
+}
+
+.send
+{
+
+    text-align: center;
+    margin-top: 100px;
+    /* الهوامش الخارجية من فوق */
+
+
+}
