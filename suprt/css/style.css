@@ -1,0 +1,84 @@
+body
+{
+
+    background: url(../imgs/bodybg2.jpg);
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1;
+    text-align: right;
+
+}
+/* ---------------------------------------------------------------الروابط------------------------------------------------------------- */
+a
+{
+
+    text-decoration: none;
+
+}
+
+a:link, a:visited
+{
+
+    color: rgb(208, 18, 18);
+
+}
+/* ---------------------------------------------------------------header1,body1------------------------------------------------------------ */
+body
+{
+
+    width: 70%;
+    margin: 10px auto;
+    clear: both;
+   
+
+}
+
+h1
+{
+    text-align: center;
+}
+
+li { display: inline;}
+
+.nav1
+{
+
+    margin: 50px 100px;
+  /* مسافة بين الايقونة و الاسم */
+  word-spacing: 100pt;
+
+}
+
+.nav2
+{
+    margin: 0px 140px;
+    font-weight: bold;
+    /* margin: 50px 50px; */
+  /* مسافة بين الايقونة و الاسم */
+  word-spacing: 115pt;
+  float:unset;
+  
+
+}
+
+.send
+{
+
+    text-align: center;
+
+
+}
+
+.img1
+{
+    margin: 100px 200px;
+    word-spacing: 200pt;
+
+}
+
+a:hover{color:  rgb(250, 32, 32);}
+ /* لما احط الماوس ع الرابط يتغير لونه و هو يستخدم لاي شي مش بس الرابط */
+
+
+
+
