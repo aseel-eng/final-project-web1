@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+     <meta charset="utf-8">
+     <meta name="viewport" content=" width=device-width, initial-scale=1.0 ">
+     <!-- "viewport" content=" width=device-width, لما تعرض الصفحة ع اللاب جوال ساعة خليعرضها مناسب لعرض الجهاز  -->
+     <!--  initial-scale=1.0 حجم الشاشة المبدئي 100 بالمية -->
+
+     <title> دعم المشاريع الصغيرة </title>
+
+     <link rel="stylesheet" type="text/css" href="css/style.css">
+     <!-- css و html للربط بين ال -->
+
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!-- css لربط ماف ال -->
+
+        <style>
+            button { margin: 100px auto; height: 40px; width: 130px;}
+        </style>
+    </head>
+
+    <!-- ---------------------------------------------------------------body----------------------------------------------------------------- -->
+
+    <body class="body1">
+        
+         
+     <!-- <h1 class="text-primary bg-success"> heading1</h1> -->
+     <!-- text-primary  تغيير لون الكلام -->
+     <!-- bg-success   تغيير لون الخلفية -->
+        <header class=" header1 " >
+            <nav>
+                <ul>
+                    <li><a href="contact-us/index.html"> تواصل معنا </a></li>
+                    <li><a href="serves/index.html"> الخدمات</a></li>
+                    <li><a href="suport-project/index.html">دعم المشاريع  </a></li>
+                    <li><a href="#"> الرئيسية </a></li>
+
+                </ul>
+            </nav>
+      </header>
+
+      <!-- -----------------------------------------------------section1----------------------------------------------------------- -->
+      <div class="div1">
+
+          <section class="section1">
+             <br><br><br>  <br><br><br> 
+
+             <header class=" header2"> <h1> منصة دعم المشاريع الصغيرة </h1></header>
+             <footer class="footer-1">
+                 <p class="footer-p"> ساعد اصحاب المشاريع المحلية على الاستمرار و النمو من خلال الدعم المجتمعي </p>
+                 <p class="footer-a"><a href="show-project/index.html"> استعرض المشاريع </a></p>
+             </footer>
+         </section>
+         <br><br><br> <br><br><br><br><br>
+          
+
+          <!-- ----------------------------------------------------section4------------------------------------------------------------ -->
+           
+
+
+          <div class="video1">
+            <h1> فيديو تعريفي </h1>
+          </div>
+
+          <div class="video2">
+            <video controls>
+                <source src=" https://youtu.be/dMJopVuMPr8?si=TKhmt4T2vgS3-5cO " type="video/mp4">
+                <!-- اضافة فيديو -->
+            </video>
+          </div>
+           <br><br><br> <br><br><br>
+
+
+
+           <!-- ضع هذا داخل <footer> -->
+          <button> click me </button>
+
+
+          <br><br><br>
+     <!-- ----------------------------------------------------last section------------------------------------------------------------ -->
+
+      <footer id="send" class="text-dark" >
+
+     <p> Copywrite &copy; 2026 </p>
+
+     </footer>
+     <!-- ذيل الصفحة -->
+
+
+
+     <!-- مساحة الرسالة
+      مساحة الفيديو
+      اضف فيديو
+       -->
+
+
+
+
+
+    
+        
+
+
+
+   
+
+
+      
+
+       
+      <script>
+            
+            var allh1=document.querySelectorAll('h1')
+
+            for ( var i =0; i<allh1.length; i++)
+            {
+            //   console.log(x)
+               allh1[i].style.setProperty('color', 'black')
+            //للاسود h1 ثم غيرنا لون ال  id  استدعينا ال
+            }
+
+
+            var btn=document.querySelector('button')
+            btn.addEventListener('click', change, false)
+            function change() {
+                document.body.style.backgroundColor="red"
+                
+            }
+          
+            // عند الضغط على الزر يتغير لون الخلفية للاسود
+       
+      </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+</html>
