@@ -1,0 +1,78 @@
+.body
+{
+
+    background: url(../imgs/bodybg2.jpg);
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1;
+    text-align: right;
+
+}
+/* ---------------------------------------------------------------الروابط------------------------------------------------------------- */
+a
+{
+
+    text-decoration: none;
+
+}
+
+a:link, a:visited
+{
+
+    color: rgb(208, 18, 18);
+
+}
+/* ---------------------------------------------------------------header1,body1------------------------------------------------------------ */
+.body
+{
+
+    width: 70%; 
+    margin: 10px auto;
+    clear: both;
+
+}
+.header3
+{
+
+    text-align: center;
+
+}
+
+.show-project 
+{
+
+    text-align: right;
+    margin-bottom: -100px;
+
+}
+
+.suport-project
+{
+
+    text-align: center;
+    margin-bottom: -100px;
+    /* هنا السالب لانقاص المسافة */
+
+
+}
+
+.suport-grow
+{
+
+    text-align: left;
+
+}
+
+a:hover{color:  rgb(250, 32, 32);}
+/* لما احط الماوس ع الرابط يتغير لونه و هو يستخدم لاي شي مش بس الرابط */
+
+.send
+{
+
+ text-align: center;
+ margin-top: 100px;
+
+
+}
+
+ 
